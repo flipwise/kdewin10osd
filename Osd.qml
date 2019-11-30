@@ -28,8 +28,8 @@ PlasmaCore.Dialog {
     // The X11BypassWindowManagerHint flag stops KWin from forcibly re-centering the OSD.
     flags: Qt.X11BypassWindowManagerHint | Qt.FramelessWindowHint
 
-    x: units.gridUnit * 2
-    y: units.gridUnit * 2
+    x: units.gridUnit * 2 // add panel width if your panel is on the left
+    y: units.gridUnit * 2 // add panel height if your panel is on top
 
     // OSD Timeout in msecs - how long it will stay on the screen
     property int timeout: 1800
