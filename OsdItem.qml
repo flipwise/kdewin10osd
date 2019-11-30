@@ -36,6 +36,7 @@ ColumnLayout {
     PlasmaComponents.ProgressBar {
         id: progressBar
         visible: rootItem.showingProgress
+        Layout.alignment: Qt.AlignHCenter
         Layout.fillHeight: true
         orientation: Qt.Vertical
         minimumValue: 0
